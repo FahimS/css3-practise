@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0px auto;
+        }
+        .food{
+            border: 3px solid lightcoral;
+            border-radius: 10px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+            border-radius: 7px;
+        }
+        @media (max-width: 760px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: rosybrown;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi reprehenderit illum doloribus. Quam minus voluptates tempora soluta eaque possimus deserunt? Quae dolor omnis, id veniam iure amet sed officiis quasi voluptate suscipit, sint magnam odio reprehenderit dolores fugiat nulla harum.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Numquam modi aut enim laboriosam culpa blanditiis id officiis amet minima nesciunt tenetur non illum, cumque optio, maxime sint repudiandae ipsam. Suscipit maiores aperiam beatae! Numquam ut enim voluptatibus, laborum pariatur fugit voluptatum similique minus, quas maiores dolor reiciendis harum.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Repellendus ipsam, ratione cupiditate inventore, aperiam neque voluptates beatae assumenda dolores cumque iure dolorem ex quod quos. Iste aspernatur blanditiis facilis soluta rerum id natus vitae porro minima magni dolorem aliquid voluptas atque alias, saepe corporis deleniti rem vel error!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Qui enim iste quia! Facere repudiandae illo placeat! Unde temporibus inventore vel porro accusamus omnis ut aut asperiores repellat nisi error, voluptatum assumenda molestiae deserunt ad. Recusandae fugiat nemo beatae ipsam fugit, ea iusto sint, obcaecati vel adipisci molestiae. Repudiandae.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Non nisi magnam deleniti ab eos sequi sed iste praesentium eligendi similique esse vitae nesciunt, qui error. Exercitationem magni voluptates nihil ex, reprehenderit cum quia vitae sunt cumque placeat temporibus consequatur iusto labore possimus optio minima eius tenetur omnis iure.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Dolores ut cum qui iure labore tempora recusandae voluptates esse illum perspiciatis explicabo unde ab beatae officia, aliquam assumenda vitae quisquam alias? Tenetur odio, dolor blanditiis omnis consequuntur recusandae voluptatem delectus ea eos maxime neque temporibus eveniet reiciendis. Dicta, recusandae.</p>
+        </div>
+    </div>
+</body>
+</html>
